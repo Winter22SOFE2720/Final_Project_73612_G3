@@ -1,3 +1,5 @@
-# Project-Template
-### Please upload the project requirements creating similar folders in your project.
-### Make sure to create a good report for each module.
+<<<<<<< HEAD
+=======
+# Final_Project_73612_G3
+SOFE 2720 final project 
+>>>>>>> main
