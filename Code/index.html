@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping System</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="nav container">
+            <a href="#" class="logo">SHOPPERS</a>
+            <i class="fa fa-shopping-cart" aria-hidden="true" id="cart-icon"></i>
+            <!-- CART -->
+            <div class="cart">
+                <div class="cart-title">Your Cart</div>
+                <!-- Content -->
+                <div class="cart-content">
+
+                </div>
+                <!-- TOTAL -->
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">$0</div>
+                </div>
+                <!-- PURCHASE -->
+                <button type="button" class="btn-buy">Buy Now</button>
+                <!-- CLOSE CART -->
+                <i class="fa fa-times" id="close-cart" aria-hidden="true"></i>
+            </div>
+        </nav>
+    </header>
+    <!-- SHOP -->
+    <section class="shop container">
+        <h2 class="section-title">Products</h2>
+        <!-- Contents -->
+        <div class="shop-content">
+            <div class="product-box">
+                <img src="img/product1.jpg" alt="" class="product-img">
+                <!-- <p class="product-txt">Product 1</p> -->
+                <h2 class="product-title">Product 1</h2>
+                <span class="price">$25</span>
+                <i class="fa fa-plus-square add-cart" aria-hidden="true" ></i>
+            </div>
+            <div class="product-box">
+                <img src="img/product2.jpg" alt="" class="product-img">
+                <!-- <p class="product-txt">Product 2</p> -->
+                <h2 class="product-title">Product 2</h2>
+                <span class="price">$125</span>
+                <i class="fa fa-plus-square add-cart" aria-hidden="true" ></i>
+            </div>
+            <div class="product-box">
+                <img src="img/product3.jpg" alt="" class="product-img">
+                <!-- <p class="product-txt">Product 3</p> -->
+                <h2 class="product-title">Product 3</h2>
+                <span class="price">$225</span>
+                <i class="fa fa-plus-square add-cart" aria-hidden="true" ></i>
+            </div>
+            <div class="product-box">
+                <img src="img/product4.jpg" alt="" class="product-img">
+                <!-- <p class="product-txt">Product 4</p> -->
+                <h2 class="product-title">Product 4</h2>
+                <span class="price">$325</span>
+                <i class="fa fa-plus-square add-cart" aria-hidden="true" ></i>
+            </div>
+            <div class="product-box">
+                <img src="img/product5.jpg" alt="" class="product-img">
+                <!-- <p class="product-txt">Product 5</p> -->
+                <h2 class="product-title">Product 5</h2>
+                <span class="price">$425</span>
+                <i class="fa fa-plus-square add-cart" aria-hidden="true" ></i>
+            </div>
+        </div>
+    </section>
+    <!-- LINK TO JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>
